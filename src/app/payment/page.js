@@ -427,7 +427,7 @@ export default function PaymentVerify() {
 
         <button onClick={() => updateUser(idForUser)}>Submit</button>
 
-        {/* <Button
+        <Button
                   onClick={() => updateUser(idForUser)}
                   className="disabled:opacity-50 mt-4 text-white font-semibold w-full"
                   style={{ height: "55px" , backgroundColor : (rollNumber.length === 5 && paymentImg) ? "#248ba5" : "#248ba5"  , color : (rollNumber.length === 5 && paymentImg) ? "white" : "white"    }}
@@ -438,7 +438,7 @@ export default function PaymentVerify() {
 
               >
                   SUBMIT
-              </Button> */}
+              </Button>
 
       </div>
     </div>
